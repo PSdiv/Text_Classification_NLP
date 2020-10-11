@@ -1,1 +1,3 @@
-# Text_Classification_NLP
+# Text Classification
+
+This project aims at classifying human text vs machine generated text. Human text is readable text where as machine text is not. Machine text contains lot of special characters and very less words surrounded by garbage characters. In this project I used NLP to create features which can be understood by machine learning algorithms and trained various models to compare the performance. This data is also imbalanced, Hence general performance metrics for classification algorthms such as accuracy is not a good measure. I applied random over sampling and tested the models with with thier F1 scores,PR AUC.
